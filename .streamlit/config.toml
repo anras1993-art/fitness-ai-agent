@@ -1,0 +1,17 @@
+# Цвета приложения. Streamlit читает этот файл автоматически при запуске.
+
+[theme]
+base = "light"
+primaryColor = "#0E7C5A"              # акцент: кнопка, активные поля
+backgroundColor = "#F4F5F7"           # фон страницы — светло-серый
+secondaryBackgroundColor = "#F1F3F6"  # заливка полей ввода
+textColor = "#1A1D23"                 # основной текст
+borderColor = "#E3E6EB"               # рамки полей
+font = "sans-serif"
+headingFont = "sans-serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
